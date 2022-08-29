@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#565657"
+    tools:context=".JoinActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textSize="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textColor="#FFD600" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/joinName"
+        android:inputType="textPersonName"
+        android:ems="12"
+        android:hint="Name"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColorHint="#BFBFBF"
+        android:textColor="@color/white"
+        android:backgroundTint="#BFBFBF" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/joinEmail"
+        android:ems="12"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColorHint="#BFBFBF"
+        android:textColor="@color/white"
+        android:backgroundTint="#BFBFBF" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/joinPW"
+        android:ems="12"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColorHint="#BFBFBF"
+        android:textColor="@color/white"
+        android:backgroundTint="#BFBFBF" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/joinPhone"
+        android:ems="12"
+        android:hint="phone number"
+        android:inputType="phone"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColorHint="#BFBFBF"
+        android:textColor="@color/white"
+        android:backgroundTint="#BFBFBF" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textColor="#FFF1A7"
+        android:background="#00ff0000"
+        android:onClick="onClickSubmit" />
+
+
+</LinearLayout>

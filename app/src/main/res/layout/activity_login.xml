@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#565657"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textSize="40dp"
+        android:textColor="#FFD600" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginEmail"
+        android:ems="12"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textColorHint="#BFBFBF"
+        android:textColor="@color/white"
+        android:backgroundTint="#BFBFBF" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginPW"
+        android:ems="12"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textColorHint="#BFBFBF"
+        android:textColor="@color/white"
+        android:backgroundTint="#BFBFBF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JOIN"
+            android:layout_marginRight="20dp"
+            android:textColor="#FFF1A7"
+            android:background="#00ff0000"
+            android:onClick="onClickJoin" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:textColor="#FFF1A7"
+            android:background="#00ff0000"
+            android:onClick="onClickLogin" />
+    </LinearLayout>
+</LinearLayout>

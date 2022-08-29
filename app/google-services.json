@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "959836284509",
+    "project_id": "write-and-read-f3751",
+    "storage_bucket": "write-and-read-f3751.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959836284509:android:a022ce94f77d313641cfb4",
+        "android_client_info": {
+          "package_name": "com.example.writeandreadwithrealtimedatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959836284509-1v4c6asilcg10veeb7ohi877appd12mf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.writeandreadwithrealtimedatabase",
+            "certificate_hash": "2e9e767608febe3470c6143bb276a7ad1f55d34d"
+          }
+        },
+        {
+          "client_id": "959836284509-jf7reg42kac7fkvnfe7pm237v24jcbe2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvcMlV3UaxY0_xAziThuUvXRa9RxZ5a44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959836284509-jf7reg42kac7fkvnfe7pm237v24jcbe2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
